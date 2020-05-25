@@ -1,0 +1,22 @@
+#include<stdio.h>
+struct employee
+{
+	int phoneno; 
+	int salary;
+	char empname;
+	int age;
+};
+int main()
+{
+	printf("Name     Age    Phone number    salary\n");
+  struct employee a;
+	for(; ;)
+  {
+	      scanf("\n%s",&a.empname);
+        scanf("\t%d",&a.age);	
+	      scanf("\t%d",&a.phoneno);
+        scanf("\t%d",&a.salary);
+   }
+   return 0;
+	
+}
