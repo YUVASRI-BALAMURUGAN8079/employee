@@ -9,14 +9,14 @@ struct employee
 int main()
 {
 	printf("Name     Age    Phone number    salary\n");
-  struct employee a;
+        struct employee a;
 	for(; ;)
-  {
+        {
 	      scanf("\n%s",&a.empname);
-        scanf("\t%d",&a.age);	
+              scanf("\t%d",&a.age);	
 	      scanf("\t%d",&a.phoneno);
-        scanf("\t%d",&a.salary);
-   }
-   return 0;
+              scanf("\t%d",&a.salary);
+	 }
+         return 0;
 	
 }
